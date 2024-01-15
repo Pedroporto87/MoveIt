@@ -1,4 +1,5 @@
 import { FaWhatsapp, FaLinkedinIn } from "react-icons/fa";
+import '../styles/components/socialmedia.scss'
 
 export const SocialMedia = () => {
     const handleClickIn = () => {
