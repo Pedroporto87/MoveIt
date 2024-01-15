@@ -6,7 +6,7 @@ import Home from './pages/Home'
 import { ProdutosSolucoes } from './pages/ProdutosSolucoes.jsx'
 import { Contato } from './pages/Contato'
 import './styles/main.scss'
-import Empresa from './pages/Empresa.jsx'
+import { Empresa } from './pages/Empresa.jsx'
 
 const router = createBrowserRouter([
   {
