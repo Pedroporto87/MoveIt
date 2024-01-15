@@ -17,7 +17,7 @@
 @mixin social-media {
         @include small-conteiner; 
         margin-right: $thirtypxw;
-        gap: $tenpxw;
+        gap: 1vw;
         align-items: center;
         justify-content: center;
         @media screen {
@@ -34,7 +34,7 @@
                 gap: $tenpxw;
             }}
             svg{
-            font-size: $hundredpxw;
+            font-size: 1.5vw;
             color: $color-blue;
             cursor: pointer;
             @media screen {
@@ -55,7 +55,7 @@
 
 @mixin page-links{
     display: flex;
-    width: 21.96vw;
+    width: auto;
     align-items: center;
     justify-content: center;
     @media screen {
