@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom"
+import '../styles/components/nav-buttons.scss'
 
 export const NavButtons = () => {
   return (
