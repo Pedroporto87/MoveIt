@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import Logo from '../img/moveit_logo180.jpg'
+import '../styles/components/logo.scss'
 
 
 export const LogoImage = () => {
