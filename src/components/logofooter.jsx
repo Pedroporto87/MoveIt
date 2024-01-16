@@ -1,8 +1,6 @@
 import { useNavigate } from 'react-router-dom'
-import Logo from '../img/moveit_logo180.jpg'
-
-
-export const LogoImage = () => {
+import Logofooter from '../img/imageedit_2_5318115556.jpg'
+export const LogoFooter = () => {
 
     const navigate = useNavigate()
 
@@ -12,7 +10,7 @@ export const LogoImage = () => {
 
   return (
     <figure id='logo'>
-        <img src={Logo} onClick={handleClickHome} alt='Logo MovieIt'/>
+        <img src={Logofooter} onClick={handleClickHome} alt='Logo MovieIt'/>
     </figure>
   )
 }

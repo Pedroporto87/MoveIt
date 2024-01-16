@@ -4,12 +4,15 @@
 .footer {
     @include large-conteiner;
     height: 9rem;
-    background-color: $color-footer;
+    background-color: $color-lightblue;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    .page-links{
-        flex-direction: column;
+    .social-media{
+       @include social-media($color-white, $color-blue)
+    } 
     }
+     
+   
+        
     
-    }
