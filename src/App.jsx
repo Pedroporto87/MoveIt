@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom"
 import { NavBar } from './components/navbar'
 import { Footer } from './components/footer'
-import './App.css'
+import '../src/styles/components/devPorto.scss'
 
 function App() {
   const devPorto = () => {
