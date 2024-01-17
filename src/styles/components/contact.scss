@@ -1,0 +1,45 @@
+@import '../mixins';
+@import '../variables';
+
+.adress{
+    display: flex;
+    flex-direction: column;
+    width: 20.312rem;
+    line-height: 22px;
+    @media screen {
+        @media(max-width:768px){
+            display: none;
+          }
+        @media(max-width:425px){
+            display: none;
+          }
+        @media(max-width:375px){
+          display: none;
+        }}
+   
+    a{
+        font-family: $font-text;
+        text-align: center;
+        color: $color-white;
+        cursor: pointer;
+        @media screen {
+            @media(max-width:768px){
+                font-size: 0.5rem;
+              }}
+        &:hover{
+            color:$color-blue
+        }
+        svg{
+            color: $color-white;
+            font-size: 1.2rem;
+            &:hover{
+                color:$color-blue
+            }
+        }
+    }
+    p, label{
+        font-family: $font-text;
+        text-align: center;
+        color: $color-white;
+    }
+}
